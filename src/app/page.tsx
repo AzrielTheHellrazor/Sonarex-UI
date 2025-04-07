@@ -1,9 +1,7 @@
-// app/page.tsx
 "use client";
 
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -228,7 +226,7 @@ export default function Home() {
                     </div>
                     <div className="p-4 font-mono text-xs text-gray-400">
                       <div className="flex justify-between text-cyan-500 mb-2">
-                        <span>// Current Allocation</span>
+                        <span>{"// Current Allocation"}</span>
                         <span>Last rebalanced: 2h ago</span>
                       </div>
                       <pre className="overflow-x-auto">
@@ -291,8 +289,8 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mb-3">Gas-Optimized</h3>
                 <p className="text-gray-400">
                   Our system batches transactions and optimizes for gas
-                  efficiency, ensuring rebalancing operations don't eat into
-                  your profits.
+                  efficiency, ensuring rebalancing operations don&apos;t eat
+                  into your profits.
                 </p>
               </div>
             </motion.div>
@@ -442,7 +440,7 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-2">Customizable</h3>
               <p className="text-gray-400">
                 Set your risk preferences and yield targets to personalize the
-                AI's allocation strategy to your needs.
+                AI&apos;s allocation strategy to your needs.
               </p>
             </motion.div>
           </div>
@@ -469,7 +467,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-gray-400 mb-8"
           >
-            Join our waitlist to be among the first to access Sonarex's
+            Join our waitlist to be among the first to access Sonarex&apos;s
             intelligent yield optimization platform.
           </motion.p>
 
