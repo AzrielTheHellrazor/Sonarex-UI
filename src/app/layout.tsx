@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sonarex - The Future of On-chain Intelligence",
+  title: "Sonarex",
   description:
     "Navigate the blockchain ecosystem with precision. Sonarex provides advanced analytics and insights for informed on-chain decision making.",
   keywords: "blockchain, analytics, crypto, onchain, intelligence, data",
