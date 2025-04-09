@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   description:
     "Navigate the blockchain ecosystem with precision. Sonarex provides advanced analytics and insights for informed on-chain decision making.",
   keywords: "blockchain, analytics, crypto, onchain, intelligence, data",
+  icons: "/favicon.ico",
 };
 
 export default function RootLayout({
